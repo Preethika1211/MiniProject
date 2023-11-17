@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.signup{
+    width: 360px;
+    height: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 3px;
+}
+
+h1{
+    text-align:center;
+    padding-top:15px;
+}
+
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+form input{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:rgb(255, 0, 0);
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    color: white;
+    background: rgb(13,211,247);
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
